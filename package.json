@@ -1,0 +1,24 @@
+{
+  "name": "ctci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrays_strings.js",
+  "scripts": {
+    "test": "find ./test -name '*_test.js' | xargs mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamad91/ctci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamad91/ctci/issues"
+  },
+  "homepage": "https://github.com/Jamad91/ctci#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
+
