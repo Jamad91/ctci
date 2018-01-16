@@ -2,17 +2,14 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let isUnique = require('../../problems/arrays&strings/isUnique.js').isUnique
+let strCompression = require('../../problems/arrays&strings/05_strCompression.js').strCompression
+let str
 
-describe('isUnique', function() {
+describe('strCompression', function() {
   
-  xit('is a function', function() {
-    expect(typeof isUnique === 'function').equal(true)
-  })
-  
-  xit('returns a ', function() {
-    string = "goo"
-    expect(typeof() == 'boolean').equal(true)
+  xit('returns a string', function() {
+    str = "goo"
+    expect(typeof(strCompression(str)) == 'string').equal(true)
   })
   
   

@@ -2,17 +2,14 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let isUnique = require('../../problems/arrays&strings/isUnique.js').isUnique
+let rotateMatrix = require('../../problems/arrays&strings/06_rotateMatrix.js').rotateMatrix
+let arr
 
-describe('isUnique', function() {
+describe('rotateMatrix', function() {
   
-  xit('is a function', function() {
-    expect(typeof isUnique === 'function').equal(true)
-  })
-  
-  xit('returns a ', function() {
-    string = "goo"
-    expect(typeof() == 'boolean').equal(true)
+  xit('returns an array', function() {
+    arr = []
+    expect(typeof(rotateMatrix(arr)) == 'object').equal(true)
   })
   
   

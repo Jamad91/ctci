@@ -2,17 +2,14 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let isUnique = require('../../problems/arrays&strings/isUnique.js').isUnique
+let palindrome = require('../../problems/arrays&strings/03_palindrome.js').palindrome
+let str
 
-describe('isUnique', function() {
+describe('palindrome', function() {
   
-  xit('is a function', function() {
-    expect(typeof isUnique === 'function').equal(true)
-  })
-  
-  xit('returns a ', function() {
-    string = "goo"
-    expect(typeof() == 'boolean').equal(true)
+  xit('returns a boolean', function() {
+    str = "goo"
+    expect(typeof(palindrome(str)) == 'boolean').equal(true)
   })
   
   

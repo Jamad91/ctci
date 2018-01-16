@@ -2,17 +2,13 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let isUnique = require('../../problems/arrays&strings/isUnique.js').isUnique
+let strRotation = require('../../problems/arrays&strings/08_strRotation.js').strRotation
 
-describe('isUnique', function() {
+describe('strRotation', function() {
   
-  xit('is a function', function() {
-    expect(typeof isUnique === 'function').equal(true)
-  })
-  
-  xit('returns a ', function() {
-    string = "goo"
-    expect(typeof() == 'boolean').equal(true)
+  xit('returns a string', function() {
+    str = "goo"
+    expect(typeof(strRotation(str)) == 'string').equal(true)
   })
   
   

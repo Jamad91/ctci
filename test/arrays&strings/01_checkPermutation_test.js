@@ -2,16 +2,12 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let checkPermutation = require('../../problems/arrays&strings/checkPermutation.js').checkPermutation
+let checkPermutation = require('../../problems/arrays&strings/01_checkPermutation.js').checkPermutation
 let str1;
 let stri2;
 
 describe('checkPermutation', function() {
-  
-  it('is a function', function() {
-    expect(typeof checkPermutation === 'function').equal(true)
-  })
-  
+
   it('returns a bool', function() {
     str1 = "abc"
     str2 = "abc"

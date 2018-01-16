@@ -2,17 +2,14 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let isUnique = require('../../problems/arrays&strings/isUnique.js').isUnique
+let zeroMatrix = require('../../problems/arrays&strings/07_zeroMatrix.js').zeroMatrix
+let arr
 
-describe('isUnique', function() {
+describe('zeroMatrix', function() {
   
-  xit('is a function', function() {
-    expect(typeof isUnique === 'function').equal(true)
-  })
-  
-  xit('returns a ', function() {
-    string = "goo"
-    expect(typeof() == 'boolean').equal(true)
+  xit('returns an array', function() {
+    arr = []
+    expect(typeof(zeroMatrix(arr)) == 'object').equal(true)
   })
   
   
