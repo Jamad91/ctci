@@ -26,4 +26,9 @@ describe('isUnique', function() {
     expect(isUnique(string)).equal(true)
   })
   
+  it('ignores spaces', function() {
+    string = "you have it"
+    expect(isUnique(string)).equal(true)
+  })
+  
 })
