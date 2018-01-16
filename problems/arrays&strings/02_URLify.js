@@ -3,7 +3,7 @@
 // and that you are given the 'true' length of the string
 
 function URLify(str) {
-  // return str
+  return str.split(' ').join('%20')
 }
 
 if(typeof exports !== 'undefined') {

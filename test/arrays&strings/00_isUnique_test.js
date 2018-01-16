@@ -13,20 +13,20 @@ describe('isUnique', function() {
   
   it('returns a bool', function() {
     string = "goo"
-    expect(typeof(isUnique(string)) == 'string').equal(true)
+    expect(typeof(isUnique(string)) == 'boolean').equal(true)
   })
   
-  xit('returns false when string does not contain unique characters', function() {
+  it('returns false when string does not contain unique characters', function() {
     string = "goo"
     expect(isUnique(string)).equal(false)
   })
   
-  xit('returns true when string contains only unique characters', function() {
+  it('returns true when string contains only unique characters', function() {
     string = "abcd"
     expect(isUnique(string)).equal(true)
   })
   
-  xit('ignores spaces', function() {
+  it('ignores spaces', function() {
     string = "you have it"
     expect(isUnique(string)).equal(true)
   })
