@@ -8,7 +8,9 @@ function strCompression(str) {
   let current = [str[0]]
   let result = ""
   for(let i = 1; i <= str.length; i++) {
-    if (!isNaN(parseInt(str[i]))) {throw new Error("cannot have numbers in string")}
+    if (!isNaN(parseInt(str[i]))) {
+      throw new Error("cannot have numbers in string")
+    }
     if (str[i] != current[0]) {
       arr.push(current)
       current = [str[i]]
