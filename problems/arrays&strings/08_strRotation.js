@@ -3,9 +3,24 @@
 // Only use one call to isSubstring
 // ex: 'waterbottle' is a rotation of 'erbottlewat'
 
-function strRotation(str) {
+function strRotation(str1, str2) {
+  let f = isSubstring(str1, str2)
+  let g = isSubstring(str1, str2)
+  return true
+}
+
+function isSubstring(str, subStr) {
+  for (let i = 0; i < str.length - subStr.length; i++) {
+    if (str[i] === subStr[0]) {
+      if (subStr === str.substring(i, subStr.length)) {
+        return true
+      }
+    }
+  }
+  return false
 }
 
 if(typeof exports !== 'undefined') {
     module.exports.strRotation = strRotation;
+    module.exports.isSubstring = isSubstring;
 }
