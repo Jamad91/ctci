@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let URLify = require('../../problems/arrays&strings/02_URLify.js').URLify
+let URLify = require('../../problems/00_arrays&strings/02_URLify.js').URLify
 let str
 
 describe('URLify', function() {

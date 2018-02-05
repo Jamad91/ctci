@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let palindrome = require('../../problems/arrays&strings/03_palindrome.js').palindrome
+let palindrome = require('../../problems/00_arrays&strings/03_palindrome.js').palindrome
 let str
 
 describe('palindrome', function() {

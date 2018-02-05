@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let oneAway = require('../../problems/arrays&strings/04_oneAway.js').oneAway
+let oneAway = require('../../problems/00_arrays&strings/04_oneAway.js').oneAway
 let str1
 let str2
 

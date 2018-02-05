@@ -4,8 +4,8 @@ chai.use(spies)
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let strRotation = require('../../problems/arrays&strings/08_strRotation.js').strRotation
-let isSubstring = require('../../problems/arrays&strings/08_strRotation.js').isSubstring
+let strRotation = require('../../problems/00_arrays&strings/08_strRotation.js').strRotation
+let isSubstring = require('../../problems/00_arrays&strings/08_strRotation.js').isSubstring
 let spy = chai.spy(isSubstring)
 let str1
 let str2

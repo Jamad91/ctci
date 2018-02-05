@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let isUnique = require('../../problems/arrays&strings/00_isUnique.js').isUnique
+let isUnique = require('../../problems/00_arrays&strings/00_isUnique.js').isUnique
 let string;
 
 describe('isUnique', function() {

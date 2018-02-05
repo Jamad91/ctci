@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let checkPermutation = require('../../problems/arrays&strings/01_checkPermutation.js').checkPermutation
+let checkPermutation = require('../../problems/00_arrays&strings/01_checkPermutation.js').checkPermutation
 let str1;
 let stri2;
 

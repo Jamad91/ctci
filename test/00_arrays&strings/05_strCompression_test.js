@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let strCompression = require('../../problems/arrays&strings/05_strCompression.js').strCompression
+let strCompression = require('../../problems/00_arrays&strings/05_strCompression.js').strCompression
 let str
 
 describe('strCompression', function() {

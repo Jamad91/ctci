@@ -2,7 +2,7 @@ var chai = require('chai');
 let assert = chai.assert
 let expect = chai.expect
 let should = chai.should()
-let zeroMatrix = require('../../problems/arrays&strings/07_zeroMatrix.js').zeroMatrix
+let zeroMatrix = require('../../problems/00_arrays&strings/07_zeroMatrix.js').zeroMatrix
 let arr
 
 describe('zeroMatrix', function() {
