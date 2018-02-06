@@ -1,0 +1,9 @@
+// Given a directed graph, design an algorithm to find out whether there is a route between two nodes
+
+function nodeRoutes() {
+  
+}
+
+if(typeof exports !== 'undefined') {
+    module.exports.nodeRoutes = nodeRoutes;
+}
